@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secret santa</string>
+    <string name="title_lottery">Secret santa</string>
+    <string name="title_wishlist">Önskelista</string>
+    <string name="title_rules">Regler</string>
+</resources>

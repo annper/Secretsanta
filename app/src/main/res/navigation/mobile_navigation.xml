@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_lottery">
+
+    <fragment
+        android:id="@+id/navigation_lottery"
+        android:name="com.example.secretsanta.ui.lottery.LotteryFragment"
+        android:label="@string/title_lottery" />
+
+    <fragment
+        android:id="@+id/navigation_wishlist"
+        android:name="com.example.secretsanta.ui.wishlist.WishlistFragment"
+        android:label="@string/title_wishlist" />
+
+    <fragment
+        android:id="@+id/navigation_rules"
+        android:name="com.example.secretsanta.ui.rules.RulesFragment"
+        android:label="@string/title_rules" />
+</navigation>
